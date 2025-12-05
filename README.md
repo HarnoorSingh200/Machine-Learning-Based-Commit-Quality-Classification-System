@@ -88,8 +88,6 @@ The full dataset contains ~300,000 commits, but K-Medoids has **O(n²)** complex
 | Message Length   | Moderate   |
 | Files Changed    | Lowest     |
 
-![Feature Importance](images/plot_feature_importance.png)
-
 ### 🔥 PCA 2D Cluster Visualization
 ![PCA Clusters](images/plot_cluster_pca.png)
 
