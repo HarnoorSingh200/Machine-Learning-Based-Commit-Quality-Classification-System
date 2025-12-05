@@ -4,7 +4,7 @@ A machine learning system designed to automatically evaluate and classify the qu
 
 
 ## 🔑 Key Contributions
-1. Collected and processed a large dataset of **300,000+ GitHub commits** using GitHub API, extracting metadata & code-quality indicators including **entropy, readability, files changed, and lines of code (LOC)**.
+1. Collected and processed a large dataset of **300,000+ GitHub commits** extracting metadata & code-quality indicators including **entropy, readability, files changed, and lines of code (LOC)**.
 2. Implemented an **unsupervised clustering pipeline using K-Medoids** to group commits into **quality-based categories: Low, Medium, High**.
 3. Used **Random Forest regression** to validate and benchmark clustering performance using **RMSE, Explained Variance Score, and MAE**.
 4. Conducted **feature-importance analysis**, identifying that **readability and entropy strongly correlate with high-quality commits**, while **file count shows weak relevance**.
